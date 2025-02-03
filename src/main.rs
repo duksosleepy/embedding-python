@@ -1,4 +1,6 @@
+use pyo3::IntoPyObjectExt;
 use pyo3::prelude::*;
+use std::collections::HashMap;
 use std::ffi::CString;
 use std::fs;
 fn main() -> PyResult<()> {
